@@ -5,6 +5,7 @@ import './Content.css';
 
 import About from '../../views/examples/About';
 import Home from '../../views/examples/Home';
+import Param from '../../views/examples/Param';
 
 export default class Content extends Component {
   render () {
@@ -13,6 +14,7 @@ export default class Content extends Component {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/sobre" element={<About />} />
+          <Route path="/parametro/:id" element={<Param />} />
         </Routes>
       </main>
     );

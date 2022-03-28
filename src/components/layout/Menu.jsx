@@ -15,6 +15,12 @@ export default class Menu extends Component {
             <li>
               <Link to="/sobre">sobre</Link>
             </li>
+            <li>
+              <Link to="/parametro/">Parâmetro #01</Link>
+            </li>
+            <li>
+              <Link to="/parametro/">Parâmetro #02</Link>
+            </li>
           </ul>
         </nav>
       </aside>

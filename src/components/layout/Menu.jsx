@@ -21,6 +21,9 @@ export default class Menu extends Component {
             <li>
               <Link to="/parametro/">Parâmetro #02</Link>
             </li>
+            <li>
+              <Link to="/nao-encontrado/">Não encontrado</Link>
+            </li>
           </ul>
         </nav>
       </aside>

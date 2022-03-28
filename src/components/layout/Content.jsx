@@ -12,7 +12,7 @@ export default class Content extends Component {
     return (
       <main className="Content">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/sobre" element={<About />} />
           <Route path="/parametro/:id" element={<Param />} />
         </Routes>
